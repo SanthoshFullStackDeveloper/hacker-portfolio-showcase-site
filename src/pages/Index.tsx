@@ -25,7 +25,7 @@ const Index = () => {
 
   return (
     <div className="min-h-screen matrix-bg">
-      <div className="max-w-6xl mx-auto px-4 py-20">
+      <div className="max-w-6xl mx-auto px-4 py-10">
         {/* Hero Section */}
         <div className="mb-20">
           <Terminal>

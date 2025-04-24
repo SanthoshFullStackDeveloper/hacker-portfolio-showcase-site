@@ -7,7 +7,7 @@ interface TerminalProps {
   title?: string;
 }
 
-const Terminal = ({ children, title = 'terminal@hacker:~$' }: TerminalProps) => {
+const Terminal = ({ children, title = 'terminal@Developer:~$' }: TerminalProps) => {
   return (
     <Card className="bg-black/80 border border-[#00ff00]/20 rounded-lg overflow-hidden backdrop-blur-sm">
       <div className="flex items-center gap-2 p-3 bg-[#0a0a0a] border-b border-[#00ff00]/20">
