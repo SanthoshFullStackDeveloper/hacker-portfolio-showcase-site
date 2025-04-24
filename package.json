@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://github.com/SanthoshFullStackDeveloper/hacker-portfolio-showcase-site.git",
+  "homepage": "https://santhoshfullstackdeveloper.github.io/hacker-portfolio-showcase-site/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
