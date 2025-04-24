@@ -1,0 +1,55 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --matrix-green: #00ff00;
+    --deep-black: #0a0a0a;
+    --electric-blue: #00ffff;
+    --cyber-purple: #9b87f5;
+  }
+
+  body {
+    @apply bg-[#0a0a0a] text-[#00ff00] font-mono;
+  }
+}
+
+@keyframes glitch {
+  0% {
+    clip-path: inset(50% 0 30% 0);
+    transform: translate(-5px, 5px);
+  }
+  20% {
+    clip-path: inset(20% 0 60% 0);
+    transform: translate(5px, -5px);
+  }
+  40% {
+    clip-path: inset(40% 0 40% 0);
+    transform: translate(-5px, 5px);
+  }
+  60% {
+    clip-path: inset(60% 0 20% 0);
+    transform: translate(5px, -5px);
+  }
+  80% {
+    clip-path: inset(10% 0 70% 0);
+    transform: translate(-5px, 5px);
+  }
+  100% {
+    clip-path: inset(50% 0 30% 0);
+    transform: translate(0);
+  }
+}
+
+.glitch {
+  animation: glitch 1s infinite;
+}
+
+.matrix-bg {
+  background-image: linear-gradient(rgba(0, 255, 0, 0.1) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 255, 0, 0.1) 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
